@@ -6,6 +6,7 @@ body {
     padding-bottom: 20px;
 }
 
+/*background image*/
 #page-top{
     background-image: url("design/img/light-bulb-small.jpg");
     background-repeat: no-repeat;
@@ -15,10 +16,19 @@ body {
 .projects-section{
     background-color:beige;
 }
+
 /*Unordered lists*/
 ul{
     list-style:none;
     color:white;
+}
+.testimonials li::first-letter{
+    color:yellow;
+    font-size: 130%
+}
+.features li::first-letter{
+    color:yellow;
+    font-size: 130%
 }
 
 
