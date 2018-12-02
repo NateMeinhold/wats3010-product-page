@@ -31,12 +31,15 @@
         <link href="main.css" rel="stylesheet">
         
         <!--tried the way that has worked before-->
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <!-- tried with favicon in img file (renamed "favicon.ico" to "light.ico" to separate them)-->
-        <link rel="shortcut icon" href="design/img/light.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <!-- tried with favicon in img file (renamed "favicon.ico" to "light.ico" to separate them)
+        This is how I got the favion to work on the bootstrap project, code below:
+        <link rel="shortcut icon" href="watch.ico" type="image/x-icon">
+        <link rel="icon" href="images/watch.ico" type="image/x-icon">-->
+        <link rel="shortcut icon" href="light.ico" type="image/x-icon">
         <link rel="icon" href="design/img/light.ico" type="image/x-icon">
-        <!-- tried with the png from w3 https://www.w3.org/2005/10/howto-favicon  (code matches line 56-->
+        <!-- tried with the png from w3 https://www.w3.org/2005/10/howto-favicon  (code matches line 59..didn't work when I tried to paste that in instead-->
         <link rel="shortcut icon" 
         type="image/png" 
          href="favicon-96x96.png">
@@ -66,7 +69,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -104,7 +107,7 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2 class="text-white mb-4">What We Do</h2>
-            <p class="text-white-50">Confused? Check out the video below!
+            <p class="text-white-50">Confused? Check out the video below!<br>
               <a href="http://APISuperstore.com">Sign up</a> today!</p>
           </div>
         </div>
