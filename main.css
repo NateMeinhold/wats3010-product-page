@@ -23,14 +23,16 @@ ul{
     color:white;
 }
 .testimonials li::first-letter{
-    color:yellow;
-    font-size: 130%
+    color:gold;
+    font-size: 120%
 }
 .features li::first-letter{
-    color:yellow;
-    font-size: 130%
+    color:gold;
+    font-size: 120%
 }
-
+.client{
+    color:gold;
+}
 
 /*!
  * Start Bootstrap - Grayscale v5.0.2 (https://startbootstrap.com/template-overviews/grayscale)
@@ -91,7 +93,7 @@ ul{
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: gold;
   }
   #mainNav .nav-link:active {
     color: white;
