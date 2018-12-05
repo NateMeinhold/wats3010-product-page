@@ -26,6 +26,10 @@ ul{
     color:gold;
     font-size: 120%
 }
+li:hover{
+    color:gold;
+    cursor:pointer;
+}
 .features li::first-letter{
     color:gold;
     font-size: 120%
