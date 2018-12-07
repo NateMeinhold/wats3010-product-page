@@ -16,6 +16,9 @@ body {
 .projects-section{
     background-color:beige;
 }
+#projects:first-letter{
+    color:gold;
+}
 
 /*Unordered lists*/
 ul{
@@ -94,7 +97,9 @@ li:hover{
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(192,192,192);
+    outline-color:black;
+		
   }
   #mainNav .nav-link:hover {
     color: gold;
