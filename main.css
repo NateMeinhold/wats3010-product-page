@@ -16,8 +16,13 @@ body {
 .projects-section{
     background-color:beige;
 }
+/*font styling*/
 #projects:first-letter{
     color:gold;
+}
+/*scrollspy nav bar effects*/
+.navbar{
+    background-color:rgb(48, 46, 46, 0.1);
 }
 
 /*Unordered lists*/

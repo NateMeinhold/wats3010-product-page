@@ -22,26 +22,25 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
         
     </head>
-     <body id="page-top">
-
+ <body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
+        <a class="navbar-brand" href="#home">API Superstore</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">What We Do</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">How it Works</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+            <a class="nav-link" href="#projects">How it Works</a>
+             <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+             <li class="nav-item">
+              <a class="nav-link" href="#signup">Contact</a>
             </li>
           </ul>
         </div>
@@ -96,7 +95,7 @@
         </div>
 
         <!-- Features Row -->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0" id="features">
           <div class="col-lg-6">
             <img class="img-fluid" src="design/img/code-small.jpg" alt="">
           </div>
